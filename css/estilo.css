@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .bg-header{
     background: url(../imagens/bg2.png) #ffc928;
     background-repeat: no-repeat;
@@ -196,7 +201,7 @@ table{
 
 /* contato */
 .contato{
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 
@@ -232,9 +237,30 @@ table{
     color: white;
 }
 
-footer{
+.footer-contato{
     background-color: #203746;
     height: 120px;
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .footer-contato{
+        position:relative;
+        bottom: 0;
+    }
+
+    .imagem-capa{
+        position: absolute;
+        right: auto;
+        width: 60vh;
+        height: 40vh;
+    }
+
+    body{
+        text-align: center;
+    }
 }
 
 footer p{
