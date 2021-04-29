@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <link rel="icon" type="image/x-icon" href="./imagens/logo.png" />
+
+            <title>Portifolio - Carlos Amaro</title>
+
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+            <!-- Font Awesome -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+            <!-- Estilo customizado -->
+            <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+
+            <script src="./script/script.js"></script>
+
+
+        </head>
+
+        <body>
+            
+            <header id="inicio">
+                <nav class=" btn-toolbar  navbar-expand-lg navbar-light bg-header">
+                    <a class=" ml-5 m-3 navbar-brand"><img src="./imagens/logo.png" width="75" alt=""></a>
+                    <button class="navbar-toggler ml-auto mr-4" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="my-nav" class="collapse navbar-collapse mr-5">
+                        <ul class="navbar-nav ml-auto link-cor">
+                            <li class="nav-item active ml-4">
+                                <a class="nav-link" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item ml-4">
+                                <a class="nav-link" href="#projetos">Projetos</a>
+                            </li>
+                            <li class="nav-item ml-4">
+                                <a class="nav-link" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item ml-4">
+                                <a class="nav-link" href="contato.html">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="sombra1"></div>
+            </header>
+
+            <!-- fim menu -->
+
+            <section id="home" class="bg-header">
+
+                <div class="container">
+                    <div class="row row-altura d-flex align-items-center">
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <div class="caixa-texto">
+                                <h1 class="display-3 text-dark">>EU SOU <br>CARLOS AMARO</h1>
+                                <p>Desenvolvedor web | Front-End</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-end">
+                            <img class="imagem-capa" src="./imagens/developer.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!-- fim topo -->
+
+            <section id="sobre" class="bg-conteudo pb-5">
+                <div class="container mb-5"><br><br>
+                    <h1 class="text-center text-white mb-5 titulo">Sobre</h1>
+                    <div class="row conteudo">
+                        <div class="col-md-6 skills">
+                            <ul class="nav nav-pills mb-3 mt-5" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Eu</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Skills</a>
+                                </li>
+                               
+                              </ul>
+                              <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                    <img class="img-fluid shadow" src="./imagens/carlos-1.png" width="500" alt="">
+                                </div>
+                                <div class="tab-pane fade mr-5 cor-1" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                    <ul class="list-group">
+                                        <li class="list-group-item bg-amarela">
+                                            <p>HTML</p>
+                                            <table>
+                                                <tbody class="text-right">
+                                                    <tr>
+                                                        <th class="text-center">médio</th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="far fa-smile"></i></th>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li class="list-group-item bg-amarela">
+                                            <p>CSS3</p>
+                                            <table >
+                                                <tbody class="text-right">
+                                                    <tr>
+                                                        <th class="text-center">médio</th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="far fa-smile"></i></th>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li class="list-group-item bg-amarela">
+                                            <p>JavaScript</p>
+                                            <table>
+                                                <tbody class="text-right">
+                                                    <tr>
+                                                        <th class="text-center">básico</th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="far fa-smile"></i></th>
+                                                        <th><i class="far fa-smile"></i></th>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li class="list-group-item bg-amarela">
+                                            <p>Wordpress</p>
+                                            <table>
+                                                <tbody class="text-right">
+                                                    <tr>
+                                                        <th class="text-center">médio</th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="far fa-smile"></i></th>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li class="list-group-item bg-amarela">
+                                            <p>ionic</p>
+                                            <table>
+                                                <tbody class="text-right">
+                                                    <tr>
+                                                        <th class="text-center">básico</th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="far fa-smile"></i></th>
+                                                        <th><i class="far fa-smile"></i></th>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                       
+                                        <li class="list-group-item bg-amarela">
+                                            <p>Godot 3</p>
+                                            <table >
+                                                <tbody class="text-right">
+                                                    <tr>
+                                                        <th class="text-center">médio</th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="far fa-smile"></i></th>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li class="list-group-item bg-amarela">
+                                            <p>SASS</p>
+                                            <table class="">
+                                                <tbody class="text-right">
+                                                    <tr>
+                                                        <th class="text-center">básico</th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="fas fa-smile"></i></th>
+                                                        <th><i class="far fa-smile"></i></th>
+                                                        <th><i class="far fa-smile"></i></th>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                    </ul>
+                                </div>
+                               
+                              </div>
+                        </div>
+                        <div class="col-md-6 mt-5">
+                            <h2 class="cor-1 mt-5 titulo-h2">Carlos Amaro da Silva</h2>
+                            <h5 class="cor-2 mt-1 titulo-h5">Desenvovedor Web | Front-End</h4>
+                            <p class="mt-5 texto-sobre">Olá sou o carlos :) <br>No momento estou desenvolvendo sites
+                               em HTML, CSS, JavaScript, Bootstrap 4 e Wordpress.
+                               Comecei a criar sites a pouco tempo, pouco mais de 5 meses, mas
+                               nessa área da tecmologia ja estou a muitos anos, comecei com criação
+                               de jogos com a plataforma Unity usando C#, depois migrei para a GODOT e la comecei a
+                               usa o GDScript. <br>
+                               Nesse momento estou cursando desenvolvimento web e fazendo faculdade de Analize
+                               e desenvolvimento de sistema, sempre estou estudando e não paro de obter conhecimento. Sou apaixonado
+                               por programação e quero me torna um ótimo proffissional nessa área, e pra isso não vou para de estuda
+                               e de ir atrás do meu sonho.
+                               <br><br>Faculdade: <br>UNISA - Universidade Santo Amaro<br> 3° semestre
+                               <br><br>Esses sao alguns curso feito pela Udemy. <br>
+                                <br>1. Desenvolvimento Web Completo - HTML5, CSS3, SASS, Bootstrap, JS, ES6, PHP 7, OO, MySQL, JQuery, MVC, APIs, IONIC 
+                                <br><br>2. Jogos 2D para Android e iOS - com godot 3
+                                <br><br>3. Atualmente cursando de Xamarin Forms - Apps para Android, IOS e UWP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                <!-- projetos -->
+
+            <section id="projetos" class="bg-header">
+                <div class="container">
+                    <br><br><br><br>
+                    <h1 class="mb-5 text-center cor-1 titulo">Projetos</h1>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" height="200"src="./imagens/wp-ecommerce.png" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Ecommerce</h5>
+                                  <p class="card-text">Loja criada com wordpress para fins de estudo.</p>
+                                  <a href="https://carlosking1212.github.io/wp-ecommerce/" target="_blank" class="btn btn-primary">Visitar</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" height="200" src="./imagens/wp-noticias.png" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Site de Noticias</h5>
+                                  <p class="card-text">Site de noticias criada com wordpress para fins de estudo.</p>
+                                  <a href="https://carlosking1212.github.io/wp-noticias/" target="_blank" class="btn btn-primary">Visitar</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" height="200"src="./imagens/finans1.png" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Financias</h5>
+                                  <p class="card-text">Site criado com HTML e Bootstrap 4, criado no curso pela Udemy.</p>
+                                  <a href="https://carlosking1212.github.io/finans.github.io/" target="_blank" class="btn btn-primary">Visitar</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col mt-5">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" height="200"src="./imagens/Spotify1.png" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Spotify Clone</h5>
+                                  <p class="card-text">Site criado com HTML e Bootstrap 4, criado no curso pela Udemy.</p>
+                                  <a href="https://carlosking1212.github.io/Spotify-curso/" target="_blank" class="btn btn-primary">Visitar</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col mt-5">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" height="200"src="./imagens/museu.png" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Museu</h5>
+                                  <p class="card-text">Site sobre o múseu criado com HTML e CSS, no curso da Udemy.</p>
+                                  <a href="https://carlosking1212.github.io/Museu-nacional_curso/" target="_blank" class="btn btn-primary">Visitar</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col mt-5">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" height="200"src="./imagens/noticia1.png" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Noticias</h5>
+                                  <p class="card-text">Site sobre noticias criado com HTML e CSS, no curso da Udemy.</p>
+                                  <a href="https://carlosking1212.github.io/Noticias-curso/" target="_blank" class="btn btn-primary">Visitar</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col mt-5">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" height="200"src="./imagens/tecBlog.png" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                  <h5 class="card-title">TecBlog</h5>
+                                  <p class="card-text">Site sobre tecnologia criado com HTML e CSS, no curso da Udemy</p>
+                                  <a href="https://carlosking1212.github.io/TecBlog/" target="_blank" class="btn btn-primary">Visitar</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col mt-5 mb-5">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" height="200" src="./imagens/cha-hotel1.png" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Chalé Hotel</h5>
+                                  <p class="card-text">Site sobre reserva de hotel criado HTML, no curso da Udemy</p>
+                                  <a href="https://carlosking1212.github.io/Chale-hotel_curso/" target="_blank" class="btn btn-primary">Visitar</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <div id="p2" class="seta-inicio fixed-bottom mb-4 mr-5">
+                <a href="#inicio"><i onmouseover="seta_over(this)" onmouseout="seta_out(this)" class="fas fa-arrow-up ml-4 mt-3"></i></a>
+            </div>
+
+            <footer class="bg-conteudo">
+                <div class="container text-center">
+                    <div class="centralizar">
+                        <p class="cor-3">&copy; 2021 - Carlos Amaro da Silva - Portifolio<p></p>
+                    </div>
+                </div>              
+            </footer>
+
+
+                <!-- JavaScript (Opcional) -->
+                <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            
+
+        </body>
+    </html>

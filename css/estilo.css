@@ -1,0 +1,255 @@
+.bg-header{
+    background: url(../imagens/bg2.png) #ffc928;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-conteudo{
+    background-color: #203746;
+}
+
+.bg-amarela{
+    background-color: #ffc928;
+}
+
+.cor-1{
+    color: white;
+}
+
+.cor-2{
+    color: rgb(185, 185, 185);
+}
+
+.cor-3{
+    color: #ffc928;
+}
+
+
+.link-cor .nav-item .nav-link{
+    /* color: rgb(194, 194, 194); */
+    /* color: white; */
+    color: black;
+}
+
+.link-cor .nav-item .nav-link:hover{
+    color: #203746;
+    border-bottom: 1px solid white;
+}
+
+.navbar-light .navbar-nav 
+.active>.nav-link, .navbar-light 
+.navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav 
+.nav-link.show, .navbar-light .navbar-nav 
+.show>.nav-link{
+    /* color: rgb(194, 194, 194); */
+    color: black;
+    border-bottom: 1px solid white;
+}
+
+.sombra{
+    box-shadow: 2px 2px 2px 0.5px rgb(119, 32, 32);
+}
+.sombra1{
+    box-shadow: 2px 2px 5px 2px rgb(119, 32, 32);
+}
+
+#home{
+    height: 92vh;
+}
+
+#home .container, .row-altura{
+    width: 100%;
+    height: 80vh;
+}
+
+.caixa-texto{
+    color: white;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.imagem-capa{
+    position:absolute;
+    right: -300px;
+    bottom: -52vh;
+    width: 850px;
+    height: 72vh;
+    opacity: 1;
+}
+
+/* responsivo */
+@media screen and (max-width: 720px) {
+    .caixa-texto h1{
+        text-align:center;
+        font-size: 25px;
+    }
+
+    .caixa-texto p{
+        text-align:center;
+        font-size: 14px;
+    }
+
+    .caixa-texto{
+        margin-left: 30px;
+    }
+
+.navbar-light .navbar-nav 
+.active>.nav-link, .navbar-light 
+.navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav 
+.nav-link.show, .navbar-light .navbar-nav 
+.show>.nav-link:hover{
+    color: rgb(194, 194, 194);
+    border-bottom: 1px solid white;
+    }
+
+    #home img{
+        overflow: auto;
+        display: none;
+    }
+
+    .skills{
+        display: none;
+    }
+
+    .titulo-h2{
+        position: relative;
+        top: -100px;
+        font-size: 25px;
+    }
+    .titulo-h5{
+        position: relative;
+        top: -100px;
+        font-size: 15px;
+    }
+
+    .texto-sobre{
+        position: relative;
+        top: -100px;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+/* corpo conteudo */
+.conteudo{
+    /* height: 80vh; */
+    width: 100%;
+    /* background-color: #ffc928; */
+    /* box-shadow: 2px 2px 3px 2px black; */
+}
+
+.conteudo a{
+    color: #ffc928;
+}
+
+.conteudo th i{
+    color: #203746;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.conteudo p{
+    font-weight: 900;
+}
+
+.texto-sobre{
+    color: rgb(194, 194, 194);
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: #ffc928;
+}
+
+table{
+    width: 100%;
+}
+
+/* projetos */
+
+.btn-primary{
+    background: #ffc928;
+    border: 1px solid white;
+    
+}
+
+.btn-primary:hover{
+    background-color: #203746;
+    border: 1px solid white;
+}
+
+.titulo{
+    text-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.card{
+    background-color: transparent;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.3);
+}
+
+
+/* contato */
+.contato{
+    height: 100vh;
+}
+
+
+.seta-inicio{
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 80px;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 720px) {
+    .seta-inicio{
+        position: fixed;
+        left: auto;
+        right: -40px;
+        width: 40px;
+        height: 40px;
+        border: 2px solid white;
+        border-radius: 40px;
+    }
+
+    .seta-inicio a i{
+       position: fixed;
+       right: 12px;
+       bottom: 25px;
+    }
+   
+}
+
+.seta-inicio i{
+    font-size: 35px;
+    color: white;
+}
+
+footer{
+    background-color: #203746;
+    height: 120px;
+}
+
+footer p{
+    margin: 0;
+}
+
+.centralizar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+
+.teste{
+    border: 1px solid yellow;
+}
