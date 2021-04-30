@@ -85,7 +85,7 @@ html, body {
 }
 
 /* responsivo */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 720px) {
     .caixa-texto .display-3{
         text-align:center;
         font-size: 45px;
