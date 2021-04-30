@@ -198,13 +198,6 @@ table{
     box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.3);
 }
 
-
-/* contato */
-.contato{
-    /* height: 100vh; */
-}
-
-
 .seta-inicio{
     width: 80px;
     height: 80px;
@@ -273,6 +266,11 @@ footer p{
     justify-content: center;
     align-items: center;
     height: 120px;
+}
+
+.tamanho{
+    width: 100%;
+    height: 100vh;
 }
 
 
