@@ -4,7 +4,8 @@ html, body {
 }
 
 .bg-header{
-    background: url(../imagens/bg2.png) #ffc928;
+    /* background: url(../imagens/bg2.png) #ffc928; */
+    background-color: rgb(158, 30, 30);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,9 +14,9 @@ html, body {
 .bg-conteudo{
     background-color: #203746;
 }
-
-.bg-amarela{
-    background-color: #ffc928;
+    .bg-amarela{
+    /* background-color: #ffc928; */
+    background-color: rgb(172, 167, 167);
 }
 
 .cor-1{
@@ -27,14 +28,12 @@ html, body {
 }
 
 .cor-3{
-    color: #ffc928;
+    color: white;
 }
 
 
 .link-cor .nav-item .nav-link{
-    /* color: rgb(194, 194, 194); */
-    /* color: white; */
-    color: black;
+    color: white;
 }
 
 .link-cor .nav-item .nav-link:hover{
@@ -49,7 +48,7 @@ html, body {
 .nav-link.show, .navbar-light .navbar-nav 
 .show>.nav-link{
     /* color: rgb(194, 194, 194); */
-    color: black;
+    color: rgb(0, 104, 223);
     border-bottom: 1px solid white;
 }
 
@@ -158,7 +157,8 @@ html, body {
 }
 
 .conteudo a{
-    color: #ffc928;
+    /* color: #ffc928; */
+    color: rgb(194, 194, 194);
 }
 
 .conteudo th i{
@@ -177,7 +177,8 @@ html, body {
 
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-    background: #ffc928;
+    /* background: #ffc928; */
+    background-color: rgb(158, 30, 30);
 }
 
 table{
@@ -191,9 +192,9 @@ table{
 }
 
 .btn-primary{
-    background: #ffc928;
+    background: rgb(194, 194, 194);
     border: 1px solid white;
-    
+    color: rgb(158, 30, 30);
 }
 
 .btn-primary:hover{
