@@ -15,9 +15,10 @@
 
             <!-- Font Awesome -->
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-
+            
             <!-- Estilo customizado -->
             <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
             <script src="./script/script.js"></script>
 
@@ -28,7 +29,11 @@
             
             <header id="inicio">
                 <nav class=" btn-toolbar  navbar-expand-lg navbar-light bg-header">
-                    <a class=" ml-5 m-3 navbar-brand"><img src="./imagens/logo.png" width="75" alt=""></a>
+
+                    <div class=" ml-5 mt-1 mb-3">
+                        <a href="#" class="ml-1 mr-1 navbar-brand text-white"><span class="cor-4 display-4">{</span><span class="display-4">carlos</span><span class="cor-4 display-4">}</span></a>
+                    </div>
+
                     <button class="navbar-toggler ml-auto mr-4" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -56,151 +61,50 @@
 
             <section id="home" class="bg-header">
 
-                <div class="container">
-                    <div class="row row-altura d-flex align-items-center">
-                        <div class="col-md-6 d-flex justify-content-center">
+                <div class="container-fluid">
+                    <div class="row-altura d-flex align-items-center">
+                        <div class="mr-5 col-md-6 d-flex justify-content-center">
                             <div class="caixa-texto">
-                                <h1 class="display-3 text-white">>EU SOU <br>CARLOS AMARO</h1>
-                                <p>Desenvolvedor web | Front-End</p>
+                                <h1 class="display-3 text-white"><span class="cor-4">></span>EU SOU <br>CARLOS AMARO</h1>
+                                <p class="cor-4">Desenvolvedor web | Front-End</p>
                             </div>
                         </div>
-                        <div class="col-md-6 d-flex justify-content-end">
-                            <img class="imagem-capa" src="./imagens/developer.png" alt="">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <img class="imagem-capa img-fluid ml-5" src="./imagens/carlos-1.png" alt="">
                         </div>
                     </div>
                 </div>
-                
+
+                <div class="rede-social d-flex">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/developer.carlos12/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone=5511941132935" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/carlos-silva-814aa0101/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>          
+                </div>
+
             </section>
 
             <!-- fim topo -->
 
             <section id="sobre" class="bg-conteudo pb-5">
                 <div class="container mb-5"><br><br>
-                    <h1 class="text-center text-white mb-5 titulo">Sobre</h1>
-                    <div class="row conteudo">
-                        <div class="col-md-6 skills">
-                            <ul class="nav nav-pills mb-3 mt-5" id="pills-tab" role="tablist">
-                                <li class="nav-item">
-                                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Eu</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Skills</a>
-                                </li>
-                               
-                              </ul>
-                              <div class="tab-content" id="pills-tabContent">
-                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                    <img class="img-fluid shadow" src="./imagens/carlos-1.png" width="500" alt="">
-                                </div>
-                                <div class="tab-pane fade mr-5 cor-1" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                    <ul class="list-group">
-                                        <li class="list-group-item bg-amarela">
-                                            <p>HTML</p>
-                                            <table>
-                                                <tbody class="text-right">
-                                                    <tr>
-                                                        <th class="text-center">médio</th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="far fa-smile"></i></th>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </li>
-                                        <li class="list-group-item bg-amarela">
-                                            <p>CSS3</p>
-                                            <table >
-                                                <tbody class="text-right">
-                                                    <tr>
-                                                        <th class="text-center">médio</th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="far fa-smile"></i></th>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </li>
-                                        <li class="list-group-item bg-amarela">
-                                            <p>JavaScript</p>
-                                            <table>
-                                                <tbody class="text-right">
-                                                    <tr>
-                                                        <th class="text-center">básico</th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="far fa-smile"></i></th>
-                                                        <th><i class="far fa-smile"></i></th>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </li>
-                                        <li class="list-group-item bg-amarela">
-                                            <p>Wordpress</p>
-                                            <table>
-                                                <tbody class="text-right">
-                                                    <tr>
-                                                        <th class="text-center">médio</th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="far fa-smile"></i></th>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </li>
-                                        <li class="list-group-item bg-amarela">
-                                            <p>python</p>
-                                            <table>
-                                                <tbody class="text-right">
-                                                    <tr>
-                                                        <th class="text-center">básico</th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="far fa-smile"></i></th>
-                                                        <th><i class="far fa-smile"></i></th>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </li>
-                                       
-                                        <li class="list-group-item bg-amarela">
-                                            <p>Godot 3</p>
-                                            <table >
-                                                <tbody class="text-right">
-                                                    <tr>
-                                                        <th class="text-center">médio</th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="far fa-smile"></i></th>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </li>
-                                        <li class="list-group-item bg-amarela">
-                                            <p>bootstrap</p>
-                                            <table class="">
-                                                <tbody class="text-right">
-                                                    <tr>
-                                                        <th class="text-center">médio</th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="fas fa-smile"></i></th>
-                                                        <th><i class="far fa-smile"></i></th>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </li>
-                                    </ul>
-                                </div>
-                               
-                              </div>
-                        </div>
-                        <div class="col-md-6 mt-5">
-                            <h2 class="cor-1 mt-5 titulo-h2">Carlos Amaro da Silva</h2>
-                            <h5 class="cor-2 mt-1 titulo-h5">Desenvovedor Web | Front-End</h4>
+                    <h1 class="text-center display-1 cor-4 text-uppercase mb-5 titulo">Sobre</h1>
+                        
+                    <div class="row">
+                        
+                        <div class="col-md-7">
+                            <div>
+                                <h1 class="cor-4 ">Carlos Amaro da Silva</h1>
+                                <h5 class="cor-2 mt-1 ">Desenvovedor Web | Front-End</h4>
+                            </div>
+                            
                             <p class="mt-5 texto-sobre">Olá sou o carlos :) <br>No momento estou desenvolvendo sites
                                em HTML, CSS, JavaScript, Bootstrap 4 e Wordpress.
                                Comecei a criar sites a pouco tempo, pouco mais de 5 meses, mas
@@ -211,14 +115,34 @@
                                e desenvolvimento de sistema, sempre estou estudando e não paro de obter conhecimento. Sou apaixonado
                                por programação e quero me torna um ótimo profissional nessa área, e pra isso não vou para de estuda
                                e de ir atrás do meu sonho.
-                               <br><br>Faculdade: <br>UNISA - Universidade Santo Amaro<br> 3° semestre
-                               <br><br>Esses sao alguns curso feito pela Udemy. <br>
-                                <br>1. Desenvolvimento Web Completo - HTML5, CSS3, SASS, Bootstrap, JS, ES6, PHP 7, OO, MySQL, JQuery, MVC, APIs, IONIC 
-                                <br><br>2. Jogos 2D para Android e iOS - com godot 3
-                                <br><br>3. Atualmente cursando de Xamarin Forms - Apps para Android, IOS e UWP
+                               <br><br>
+                               Faculdade: <br>UNISA - Universidade Santo Amaro<br> 3° semestre
                             </p>
                         </div>
-                    </div>
+
+                        <div class="col-md-5">
+
+                            <div class="">
+                                <h1 class="cor-4">Abilidades</h1>
+                                <h5 class="cor-2">conhecimentos</h5>     
+                            </div>
+                            
+                            <div>
+                                <p class="mt-5 texto-sobre">
+                                    Cursos: <br>Feito para almenta o conhecimento
+                                    <br><br>Esses sao alguns curso feito pela Udemy. <br>
+                                     <br>1. Desenvolvimento Web Completo - HTML5, CSS3, SASS, Bootstrap, JS, ES6, PHP 7, OO, MySQL, JQuery, MVC, APIs, IONIC 
+                                     <br><br>2. Jogos 2D para Android e iOS - com godot 3
+                                     <br><br>3. Atualmente cursando de Xamarin Forms - Apps para Android, IOS e UWP
+                                </p>
+                            </div>
+                            
+                        </div>
+
+                    </div>     
+
+                </div>
+
                 </div>
             </section>
 
@@ -227,112 +151,343 @@
             <section id="projetos" class="bg-header">
                 <div class="container cor-1">
                     <br><br><br><br>
-                    <h1 class="mb-5 text-center cor-1 titulo">Projetos</h1>
-                    <div class="row">
-                        <div class="col mt-5">
-                            <div class="card projetos-center">
-                                <img class="card-img-top" height="200"src="./imagens/portifolio.png" alt="Imagem de capa do card">
-                                <div class="card-body">
-                                  <h5 class="card-title">Portifolio</h5>
-                                  <p class="card-text">Meu portifolio criado com o pouco de experiencia que obtive até o momento.</p>
-                                  <a href="#" target="_blank" class="btn btn-primary">Visitar</a>
+
+                    <h1 class="mb-5 text-center cor-4 display-2 titulo">Projetos</h1>
+
+                    <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Todos</a>
+                                <a class="nav-item nav-link" id="nav-html-tab" data-toggle="tab" href="#nav-html" role="tab" aria-controls="nav-profile" aria-selected="false">HTML / CSS</a>
+                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Boostrap 4</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Javascript</a>
+                                <a class="nav-item nav-link" id="nav-wp-tab" data-toggle="tab" href="#nav-wp" role="tab" aria-controls="nav-wp" aria-selected="false">Wordpress</a>
+
+                            </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+
+                            <!-- todas os projetos -->
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="row">
+                                    <div class="col mt-5 ">
+                                        <div class="card projetos-center">
+                                            <a href="">
+                                                <img class="card-img-top" height="200"src="./imagens/portifolio.png" alt="Imagem de capa do card">
+                                            </a>
+                                            <div class="card-body">
+                                              <h5 class="card-title">Portifolio</h5>
+                                              <p class="card-text">Meu portifolio criado com o pouco de experiencia que obtive até o momento.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/wp-ecommerce/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/wp-ecommerce.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Ecommerce</h5>
+                                              <p class="card-text">Loja criada com wordpress para fins de estudo.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/qr-code/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/gerador-qrCode.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Gerador de QR Code</h5>
+                                              <p class="card-text">logica foi criado com java script (Jquery).</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/jogo-da-velha/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/velha.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Jogo da Velha</h5>
+                                              <p class="card-text">logica foi criado com java script (Jquery).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/wp-noticias/" target="_blank">
+                                                <img class="card-img-top" height="200" src="./imagens/wp-noticias.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Site de Noticias</h5>
+                                              <p class="card-text">Site de noticias criada com wordpress para fins de estudo.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/finans.github.io/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/finans1.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Financias</h5>
+                                              <p class="card-text">Site criado com HTML e Bootstrap 4, criado no curso pela Udemy.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/Spotify-curso/" target="_blank" >
+                                                <img class="card-img-top" height="200"src="./imagens/Spotify1.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Spotify Clone</h5>
+                                              <p class="card-text">Site criado com HTML e Bootstrap 4, criado no curso pela Udemy.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5 mb-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/delivery/index.html" target="_blank">
+                                                <img class="card-img-top" height="200" src="./imagens/delivery.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Site de Delivery</h5>
+                                              <p class="card-text">site de Delivery com pedido funcional e reserva de mesa.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/Museu-nacional_curso/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/museu.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Museu</h5>
+                                              <p class="card-text">Site sobre o múseu criado com HTML e CSS, no curso da Udemy.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/Noticias-curso/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/noticia1.png" alt="Imagem de capa do card">
+                                            </a>
+                                            <div class="card-body">
+                                              <h5 class="card-title">Noticias</h5>
+                                              <p class="card-text">Site sobre noticias criado com HTML e CSS, no curso da Udemy.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/TecBlog/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/tecBlog.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">TecBlog</h5>
+                                              <p class="card-text">Site sobre tecnologia criado com HTML e CSS, no curso da Udemy</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5 mb-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/Chale-hotel_curso/" target="_blank">
+                                                <img class="card-img-top" height="200" src="./imagens/cha-hotel1.png" alt="Imagem de capa do card">
+                                            </a>
+                                            <div class="card-body">
+                                              <h5 class="card-title">Chalé Hotel</h5>
+                                              <p class="card-text">Site sobre reserva de hotel criado HTML, no curso da Udemy</p>
+                                            </div>
+                                          </div>
+                                    </div>
                                 </div>
-                              </div>
-                        </div>
-                        <div class="col mt-5">
-                            <div class="card projetos-center">
-                                <img class="card-img-top" height="200"src="./imagens/wp-ecommerce.png" alt="Imagem de capa do card">
-                                <div class="card-body">
-                                  <h5 class="card-title">Ecommerce</h5>
-                                  <p class="card-text">Loja criada com wordpress para fins de estudo.</p>
-                                  <a href="https://carlosking1212.github.io/wp-ecommerce/" target="_blank" class="btn btn-primary">Visitar</a>
+                        
+                            </div>
+                            <!-- fim de todos projetos -->
+
+                            <!-- html e css -->
+                            <div class="tab-pane fade" id="nav-html" role="tabpanel" aria-labelledby="nav-html-tab">
+                                
+                                <div class="row">
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/Museu-nacional_curso/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/museu.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Museu</h5>
+                                              <p class="card-text">Site sobre o múseu criado com HTML e CSS, no curso da Udemy.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/Noticias-curso/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/noticia1.png" alt="Imagem de capa do card">
+                                            </a>
+                                            <div class="card-body">
+                                              <h5 class="card-title">Noticias</h5>
+                                              <p class="card-text">Site sobre noticias criado com HTML e CSS, no curso da Udemy.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/TecBlog/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/tecBlog.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">TecBlog</h5>
+                                              <p class="card-text">Site sobre tecnologia criado com HTML e CSS, no curso da Udemy</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5 mb-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/Chale-hotel_curso/" target="_blank">
+                                                <img class="card-img-top" height="200" src="./imagens/cha-hotel1.png" alt="Imagem de capa do card">
+                                            </a>
+                                            <div class="card-body">
+                                              <h5 class="card-title">Chalé Hotel</h5>
+                                              <p class="card-text">Site sobre reserva de hotel criado HTML, no curso da Udemy</p>
+                                            </div>
+                                          </div>
+                                    </div>
                                 </div>
-                              </div>
-                        </div>
-                        <div class="col mt-5">
-                            <div class="card projetos-center">
-                                <img class="card-img-top" height="200" src="./imagens/wp-noticias.png" alt="Imagem de capa do card">
-                                <div class="card-body">
-                                  <h5 class="card-title">Site de Noticias</h5>
-                                  <p class="card-text">Site de noticias criada com wordpress para fins de estudo.</p>
-                                  <a href="https://carlosking1212.github.io/wp-noticias/" target="_blank" class="btn btn-primary">Visitar</a>
+
+                            </div>
+                            <!-- fim html e css -->
+                            
+                            <!-- bootstrap -->
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <div class="row">
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/finans.github.io/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/finans1.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Financias</h5>
+                                              <p class="card-text">Site criado com HTML e Bootstrap 4, criado no curso pela Udemy.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/Spotify-curso/" target="_blank" >
+                                                <img class="card-img-top" height="200"src="./imagens/Spotify1.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Spotify Clone</h5>
+                                              <p class="card-text">Site criado com HTML e Bootstrap 4, criado no curso pela Udemy.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+
+                                    <div class="col mt-5 mb-5">
+                                        <div class="card projetos-center">
+                                            <a href="">
+                                                <img class="card-img-top" height="200"src="./imagens/portifolio.png" alt="Imagem de capa do card">
+                                            </a>
+                                            <div class="card-body">
+                                              <h5 class="card-title">Portifolio</h5>
+                                              <p class="card-text">Meu portifolio criado com o pouco de experiencia que obtive até o momento.</p>
+                                            </div>
+                                          </div>
+                                    </div>
                                 </div>
-                              </div>
-                        </div>
-                        <div class="col mt-5">
-                            <div class="card projetos-center">
-                                <img class="card-img-top" height="200"src="./imagens/finans1.png" alt="Imagem de capa do card">
-                                <div class="card-body">
-                                  <h5 class="card-title">Financias</h5>
-                                  <p class="card-text">Site criado com HTML e Bootstrap 4, criado no curso pela Udemy.</p>
-                                  <a href="https://carlosking1212.github.io/finans.github.io/" target="_blank" class="btn btn-primary">Visitar</a>
+                            </div>
+                            <!-- fim bootstrap -->
+
+                            <!-- javascript -->
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                <div class="row">
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/qr-code/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/gerador-qrCode.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Gerador de QR Code</h5>
+                                              <p class="card-text">logica foi criado com java script (Jquery).</p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col mt-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/jogo-da-velha/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/velha.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Jogo da Velha</h5>
+                                              <p class="card-text">logica foi criado com java script (Jquery).</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
-                        </div>
-                        <div class="col mt-5">
-                            <div class="card projetos-center">
-                                <img class="card-img-top" height="200"src="./imagens/Spotify1.png" alt="Imagem de capa do card">
-                                <div class="card-body">
-                                  <h5 class="card-title">Spotify Clone</h5>
-                                  <p class="card-text">Site criado com HTML e Bootstrap 4, criado no curso pela Udemy.</p>
-                                  <a href="https://carlosking1212.github.io/Spotify-curso/" target="_blank" class="btn btn-primary">Visitar</a>
+                            </div>
+                            <!-- fim do java script -->
+
+                            <!-- wordpress -->
+                            <div class="tab-pane fade" id="nav-wp" role="tabpanel" aria-labelledby="nav-wp-tab">
+                                <div class="row">
+
+                                    <div class="col mt-5 mb-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/wp-ecommerce/" target="_blank">
+                                                <img class="card-img-top" height="200"src="./imagens/wp-ecommerce.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Ecommerce</h5>
+                                              <p class="card-text">Loja criada com wordpress para fins de estudo.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+
+                                    <div class="col mt-5 mb-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/wp-noticias/" target="_blank">
+                                                <img class="card-img-top" height="200" src="./imagens/wp-noticias.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Site de Noticias</h5>
+                                              <p class="card-text">Site de noticias criada com wordpress para fins de estudo.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+
+                                    <div class="col mt-5 mb-5">
+                                        <div class="card projetos-center">
+                                            <a href="https://carlosking1212.github.io/delivery/index.html" target="_blank">
+                                                <img class="card-img-top" height="200" src="./imagens/delivery.png" alt="Imagem de capa do card">
+                                            </a>
+                                                <div class="card-body">
+                                              <h5 class="card-title">Site de Delivery</h5>
+                                              <p class="card-text">site de Delivery com pedido funcional e reserva de mesa.</p>
+                                            </div>
+                                          </div>
+                                    </div>
+
                                 </div>
-                              </div>
-                        </div>
-                        <div class="col mt-5">
-                            <div class="card projetos-center">
-                                <img class="card-img-top" height="200"src="./imagens/museu.png" alt="Imagem de capa do card">
-                                <div class="card-body">
-                                  <h5 class="card-title">Museu</h5>
-                                  <p class="card-text">Site sobre o múseu criado com HTML e CSS, no curso da Udemy.</p>
-                                  <a href="https://carlosking1212.github.io/Museu-nacional_curso/" target="_blank" class="btn btn-primary">Visitar</a>
-                                </div>
-                              </div>
-                        </div>
-                        <div class="col mt-5">
-                            <div class="card projetos-center">
-                                <img class="card-img-top" height="200"src="./imagens/noticia1.png" alt="Imagem de capa do card">
-                                <div class="card-body">
-                                  <h5 class="card-title">Noticias</h5>
-                                  <p class="card-text">Site sobre noticias criado com HTML e CSS, no curso da Udemy.</p>
-                                  <a href="https://carlosking1212.github.io/Noticias-curso/" target="_blank" class="btn btn-primary">Visitar</a>
-                                </div>
-                              </div>
-                        </div>
-                        <div class="col mt-5">
-                            <div class="card projetos-center">
-                                <img class="card-img-top" height="200"src="./imagens/tecBlog.png" alt="Imagem de capa do card">
-                                <div class="card-body">
-                                  <h5 class="card-title">TecBlog</h5>
-                                  <p class="card-text">Site sobre tecnologia criado com HTML e CSS, no curso da Udemy</p>
-                                  <a href="https://carlosking1212.github.io/TecBlog/" target="_blank" class="btn btn-primary">Visitar</a>
-                                </div>
-                              </div>
-                        </div>
-                        <div class="col mt-5 mb-5">
-                            <div class="card projetos-center">
-                                <img class="card-img-top" height="200" src="./imagens/cha-hotel1.png" alt="Imagem de capa do card">
-                                <div class="card-body">
-                                  <h5 class="card-title">Chalé Hotel</h5>
-                                  <p class="card-text">Site sobre reserva de hotel criado HTML, no curso da Udemy</p>
-                                  <a href="https://carlosking1212.github.io/Chale-hotel_curso/" target="_blank" class="btn btn-primary">Visitar</a>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-                </div>
+                            </div>
+                            <!-- fim wordpress -->
+                    </div>          
+                </div>   
 
             </section>
 
 
-            <div id="p2" class="seta-inicio fixed-bottom mb-4 mr-5">
-                <a href="#inicio"><i onmouseover="seta_over(this)" onmouseout="seta_out(this)" class="fas fa-arrow-up ml-4 mt-3"></i></a>
+            <div id="p2" class="seta-inicio fixed-bottom mr-5 mb-5">
+                <a href="#inicio"><i class="fas fa-arrow-up ml-4 mt-3"></i></a>
             </div>
 
             <footer class="bg-conteudo footer navbar-fixed-bottom">
                 <div class="container text-center">
                     <div class="centralizar">
-                        <p class="cor-3">&copy; 2021 - Carlos Amaro da Silva - Portifolio<p></p>
+                        <p class="text-white">&copy; 2021 - Carlos Amaro da Silva - Portifolio<p></p>
                     </div>
                 </div>              
             </footer>
